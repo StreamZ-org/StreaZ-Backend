@@ -1,0 +1,31 @@
+{
+  "name": "streaz-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server",
+    "dev": "cross-env NODE_ENV=development nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StreamZ-org/StreaZ-Backend.git"
+  },
+  "author": "dkb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StreamZ-org/StreaZ-Backend/issues"
+  },
+  "homepage": "https://github.com/StreamZ-org/StreaZ-Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "firebase-admin": "^11.0.0",
+    "mongoose": "^6.4.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
